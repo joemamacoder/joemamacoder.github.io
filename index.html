@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<i class="fas fa-band-aid"></i>
-
+<nav>
+	<ul>
+		<li><a href = "index.html">Home</a></li>
+		<li><a href = "info.html">Info</a></li>
+		<li><a href = "Aboutme.html">About me</a></li>
+		<li><a href = "Credits.html">Credits</a></li>
+	</ul>
+</nav>
 <style>
 	.heading {
 		postion:fixed;
@@ -8,16 +14,40 @@
 	#warning-git {
 		color:red;
 	}
+	#warningrpl {
+		color:red;
+	}
 	.titlea {
 		text-align: center;
 	}
-
+	body {
+		background-color:#808080;
+	}
+	nav {
+		width:100%;
+		height:100px;
+		background-color:#FFFFFF;
+	}
+	ul {
+		
+	}
+	ul li{
+		list-style:none;
+		display:inline-block;
+		float:left;
+		line-height:100px;
+	}
+	ul li a {
+		text-decoration:none;
+		font-size:14px;
+		font-family:arial;
+		color: #1e1e1e;
+		padding:0 20px;
+	}
 </style>
 <html lang="en">
   <html>
-		<p class = "heading"><a href = "joemamacoder.github.io">joemamacoder.github.io</a> </p> 
-		<p id = "warning-git" class = "heading">Github page may take some time to update so please be patient</p>
-		<p class = "heading"><a href = "https://website.284122.repl.co">Alt URL: website.284122.repl.co</a></p>
+
   <head>
 	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>	
     <meta charset="utf-8">
@@ -28,26 +58,18 @@
 		<h1 class = "titlea">Website</h1>
 		<p></p>
 		<p></p>
-		<i class="fas fa-band-aid"></i>
   </head>
 <body>
-
-    <!-- Dark Mode Switch -->
-    <div class="theme-switch-wrapper">
-        <span id="toggle-icon">
-            <span class="toggle-text">Dark Mode</span>
-            <i class="fas fa-sun"></i>
-        </span>
-        <label class="theme-switch">
-            <input type="checkbox">
-            <div class="slider round"></div>
-        </label>
-    </div>
+	
     <!-- Dark Mode Switch -->
 		<p></p>
 		<!-- Footer -->
 		<a href="info.html">info and credits</a>
-		
-    <script src="script.js"></script>
+				<p class = "heading"><a href = "joemamacoder.github.io">joemamacoder.github.io</a> </p> 
+		<p id = "warning-git" class = "heading">If github page is not updating try clearing your cached items </p>
+		<p class = "heading"><a href = "https://website.284122.repl.co">Alt URL: website.284122.repl.co</a></p>
+		<p id = "warningrpl">Repl links may not work</p>
+	
+	
 </body>
 </html>
